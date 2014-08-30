@@ -2,7 +2,7 @@
 using System.Linq;
 using NUnit.Framework;
 
-namespace Adaptive.SimpleBinaryEncoding.Tests
+namespace Misakai.Storage.Sbe.Tests
 {
     [TestFixture]
     public class EndianessConverterTests

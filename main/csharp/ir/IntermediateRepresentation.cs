@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Adaptive.SimpleBinaryEncoding.Util;
+using Misakai.Storage.Sbe.Util;
 
-namespace Adaptive.SimpleBinaryEncoding.ir
+namespace Misakai.Storage.Sbe.Ir
 {
     /// <summary>
     /// Intermediate representation of SBE messages to be used for the generation of encoders and decoders

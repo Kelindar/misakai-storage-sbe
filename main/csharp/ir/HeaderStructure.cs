@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Adaptive.SimpleBinaryEncoding.Util;
+using Misakai.Storage.Sbe.Util;
 
-namespace Adaptive.SimpleBinaryEncoding.ir
+namespace Misakai.Storage.Sbe.Ir
 {
     /// <summary>
     /// Metadata description for a message headerStructure

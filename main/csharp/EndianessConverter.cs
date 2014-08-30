@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Adaptive.SimpleBinaryEncoding
+namespace Misakai.Storage.Sbe
 {
     /// <summary>
     /// Utility class to manipulate endianess 

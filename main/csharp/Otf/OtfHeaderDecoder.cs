@@ -1,6 +1,6 @@
-﻿using Adaptive.SimpleBinaryEncoding.ir;
+﻿using Misakai.Storage.Sbe.Ir;
 
-namespace Adaptive.SimpleBinaryEncoding.Otf
+namespace Misakai.Storage.Sbe.Otf
 {
     /// <summary>
     /// Used to decode a message header while doing on-the-fly decoding of a message stream.

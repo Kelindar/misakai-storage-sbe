@@ -1,4 +1,4 @@
-﻿namespace Adaptive.SimpleBinaryEncoding.Otf
+﻿namespace Misakai.Storage.Sbe.Otf
 {
     /// <summary>
     /// Utility functions to help with on-the-fly decoding.

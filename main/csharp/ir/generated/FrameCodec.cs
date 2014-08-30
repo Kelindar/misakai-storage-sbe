@@ -2,9 +2,9 @@
 
 #pragma warning disable 1591 // disable warning on missing comments
 using System;
-using Adaptive.SimpleBinaryEncoding;
+using Misakai.Storage.Sbe;
 
-namespace Adaptive.SimpleBinaryEncoding.Ir.Generated
+namespace Misakai.Storage.Sbe.Ir.Generated
 {
     public sealed partial class FrameCodec
     {

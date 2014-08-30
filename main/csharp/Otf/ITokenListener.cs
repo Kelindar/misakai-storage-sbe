@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Adaptive.SimpleBinaryEncoding.ir;
+using Misakai.Storage.Sbe.Ir;
 
-namespace Adaptive.SimpleBinaryEncoding.Otf
+namespace Misakai.Storage.Sbe.Otf
 {
     /// <summary>
     ///     Callback interface to be implemented by code wanting to decode messages on-the-fly.

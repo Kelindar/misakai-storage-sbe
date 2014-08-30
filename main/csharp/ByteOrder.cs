@@ -1,4 +1,4 @@
-﻿namespace Adaptive.SimpleBinaryEncoding
+﻿namespace Misakai.Storage.Sbe
 {
     /// <summary>
     /// Represents the order of bytes (Endianness) used to store data.

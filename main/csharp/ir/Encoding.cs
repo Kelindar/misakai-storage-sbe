@@ -1,6 +1,6 @@
-﻿using Adaptive.SimpleBinaryEncoding.Util;
+﻿using Misakai.Storage.Sbe.Util;
 
-namespace Adaptive.SimpleBinaryEncoding.ir
+namespace Misakai.Storage.Sbe.Ir
 {
     /// <summary>
     /// Optional encoding settings that can be associated with <seealso cref="Token"/>s.
@@ -230,8 +230,8 @@ namespace Adaptive.SimpleBinaryEncoding.ir
         internal class Builder
         {
             private PrimitiveType _primitiveType;
-            private Presence _presence = ir.Presence.Required;
-            private ByteOrder _byteOrder = SimpleBinaryEncoding.ByteOrder.LittleEndian;
+            private Presence _presence = Ir.Presence.Required;
+            private ByteOrder _byteOrder = Sbe.ByteOrder.LittleEndian;
             private PrimitiveValue _minVal;
             private PrimitiveValue _maxVal;
             private PrimitiveValue _nullVal;

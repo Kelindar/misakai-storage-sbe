@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text;
-using Adaptive.SimpleBinaryEncoding.Examples.Generated;
+using Misakai.Storage.Sbe.Examples.Generated;
 
-namespace Adaptive.SimpleBinaryEncoding.Examples.generated_stub
+namespace Misakai.Storage.Sbe.Examples.generated_stub
 {
     public static class ExampleUsingGeneratedStub
     {

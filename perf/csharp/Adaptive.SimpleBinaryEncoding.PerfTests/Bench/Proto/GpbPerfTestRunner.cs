@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using Adaptive.SimpleBinaryEncoding.PerfTests.Bench.SBE.FIX;
+using Misakai.Storage.Sbe.PerfTests.Bench.SBE.FIX;
 
-namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto
+namespace Misakai.Storage.Sbe.PerfTests.Bench.Proto
 {
     public static class GpbPerfTestRunner
     {

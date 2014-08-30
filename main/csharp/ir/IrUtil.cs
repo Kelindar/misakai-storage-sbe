@@ -1,6 +1,6 @@
-﻿using Adaptive.SimpleBinaryEncoding.Ir.Generated;
+﻿using Misakai.Storage.Sbe.Ir.Generated;
 
-namespace Adaptive.SimpleBinaryEncoding.ir
+namespace Misakai.Storage.Sbe.Ir
 {
     internal class IrUtil
     {

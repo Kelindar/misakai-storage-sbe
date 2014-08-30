@@ -17,7 +17,7 @@ using System.Collections;
  */
 using System.Collections.Generic;
 
-namespace Adaptive.SimpleBinaryEncoding.Util
+namespace Misakai.Storage.Sbe.Util
 {
 
     /// <summary>

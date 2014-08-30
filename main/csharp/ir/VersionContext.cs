@@ -1,4 +1,4 @@
-﻿namespace Adaptive.SimpleBinaryEncoding.ir
+﻿namespace Misakai.Storage.Sbe.Ir
 {
     /// <summary>
     /// Indicates how the version field should be interpreted. 

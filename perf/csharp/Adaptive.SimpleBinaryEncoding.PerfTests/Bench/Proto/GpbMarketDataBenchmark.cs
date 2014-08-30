@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto
+namespace Misakai.Storage.Sbe.PerfTests.Bench.Proto
 {
     public static class GpbMarketDataBenchmark
     {

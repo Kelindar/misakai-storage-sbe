@@ -33,7 +33,7 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Adaptive.SimpleBinaryEncoding.Examples.Program</StartupObject>
+    <StartupObject>Misakai.Storage.Sbe.Examples.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

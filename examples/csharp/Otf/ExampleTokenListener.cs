@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Adaptive.SimpleBinaryEncoding.ir;
-using Adaptive.SimpleBinaryEncoding.Otf;
-using Encoding = Adaptive.SimpleBinaryEncoding.ir.Encoding;
+using Misakai.Storage.Sbe.Ir;
+using Misakai.Storage.Sbe.Otf;
+using Encoding = Misakai.Storage.Sbe.Ir.Encoding;
 
-namespace Adaptive.SimpleBinaryEncoding.Examples.Otf
+namespace Misakai.Storage.Sbe.Examples.Otf
 {
     public class ExampleTokenListener : ITokenListener
     {

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using Adaptive.SimpleBinaryEncoding.Examples.Generated;
-using Adaptive.SimpleBinaryEncoding.Examples.generated_stub;
-using Adaptive.SimpleBinaryEncoding.ir;
-using Adaptive.SimpleBinaryEncoding.Otf;
+using Misakai.Storage.Sbe.Examples.Generated;
+using Misakai.Storage.Sbe.Examples.generated_stub;
+using Misakai.Storage.Sbe.Ir;
+using Misakai.Storage.Sbe.Otf;
 
-namespace Adaptive.SimpleBinaryEncoding.Examples.Otf
+namespace Misakai.Storage.Sbe.Examples.Otf
 {
     internal class OtfExample
     {

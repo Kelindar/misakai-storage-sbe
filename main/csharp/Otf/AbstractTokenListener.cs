@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Adaptive.SimpleBinaryEncoding.ir;
+using Misakai.Storage.Sbe.Ir;
 
-namespace Adaptive.SimpleBinaryEncoding.Otf
+namespace Misakai.Storage.Sbe.Otf
 {
     /// <summary>
     ///     Abstract <seealso cref="ITokenListener" /> that can be extended when not all callback methods are required.

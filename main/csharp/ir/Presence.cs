@@ -1,4 +1,4 @@
-﻿namespace Adaptive.SimpleBinaryEncoding.ir
+﻿namespace Misakai.Storage.Sbe.Ir
 {
     /// <summary>
     /// Indicates the presence status of a primitive encoded field in a message.

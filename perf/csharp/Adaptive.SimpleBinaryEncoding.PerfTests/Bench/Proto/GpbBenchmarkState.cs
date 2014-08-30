@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto
+namespace Misakai.Storage.Sbe.PerfTests.Bench.Proto
 {
     public class GpbBenchmarkState
     {

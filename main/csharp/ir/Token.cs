@@ -15,9 +15,9 @@
  */
 
 using System.Collections.Generic;
-using Adaptive.SimpleBinaryEncoding.Util;
+using Misakai.Storage.Sbe.Util;
 
-namespace Adaptive.SimpleBinaryEncoding.ir
+namespace Misakai.Storage.Sbe.Ir
 {
     /// <summary>
     /// Class to encapsulate a token of information for the message schema stream. This Intermediate Representation (IR)
@@ -48,7 +48,7 @@ namespace Adaptive.SimpleBinaryEncoding.ir
     /// objects. Each encoding node contains size, offset, byte order, and <seealso cref="Encoding"/>. Entities relevant
     /// to the encoding such as fields, messages, repeating groups, etc. are encapsulated in the list as nodes
     /// themselves. Although, they will in most cases never be serialized. The boundaries of these entities
-    /// are delimited by BEGIN and END <seealso cref="Adaptive.SimpleBinaryEncoding.ir.Signal"/> values in the node <seealso cref="Encoding"/>.
+    /// are delimited by BEGIN and END <seealso cref="Misakai.Storage.Sbe.Ir.Signal"/> values in the node <seealso cref="Encoding"/>.
     /// A list structure like this allows for each concatenation of encodings as well as easy traversal.
     ///
     /// An example encoding of a message headerStructure might be like this.

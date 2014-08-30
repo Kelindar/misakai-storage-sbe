@@ -1,8 +1,8 @@
 ﻿using System;
-using Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto;
-using Adaptive.SimpleBinaryEncoding.PerfTests.Bench.SBE;
+using Misakai.Storage.Sbe.PerfTests.Bench.Proto;
+using Misakai.Storage.Sbe.PerfTests.Bench.SBE;
 
-namespace Adaptive.SimpleBinaryEncoding.PerfTests
+namespace Misakai.Storage.Sbe.PerfTests
 {
     public class Program
     {

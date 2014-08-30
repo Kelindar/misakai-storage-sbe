@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using Adaptive.SimpleBinaryEncoding.Ir.Generated;
+using Misakai.Storage.Sbe.Ir.Generated;
 
-namespace Adaptive.SimpleBinaryEncoding.ir
+namespace Misakai.Storage.Sbe.Ir
 {
     /// <summary>
     /// <see cref="IrDecoder"/> can be used to read a SBE encoded intermediate representation generated with SBE Tool

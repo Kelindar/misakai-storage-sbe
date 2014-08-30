@@ -1,4 +1,4 @@
-﻿namespace Adaptive.SimpleBinaryEncoding
+﻿namespace Misakai.Storage.Sbe
 {
     /// <summary>
     /// List of available SBE types

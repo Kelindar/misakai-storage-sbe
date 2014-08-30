@@ -1,4 +1,4 @@
-﻿namespace Adaptive.SimpleBinaryEncoding
+﻿namespace Misakai.Storage.Sbe
 {
     /// <summary>
     /// Primitive types from which all other types are composed.

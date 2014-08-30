@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Adaptive.SimpleBinaryEncoding
+namespace Misakai.Storage.Sbe
 {
     /// <summary>
     /// Provides access to read and write simple data types to and from a byte array in the SBE format.

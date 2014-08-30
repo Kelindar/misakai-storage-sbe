@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace Adaptive.SimpleBinaryEncoding
+namespace Misakai.Storage.Sbe
 {
     /// <summary>
     ///     Class used to encapsulate values for primitives. Used for nullValue, minValue, maxValue, and constants

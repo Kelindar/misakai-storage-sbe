@@ -1,7 +1,7 @@
 ﻿
-using Adaptive.SimpleBinaryEncoding.PerfTests.Bench.SBE.FIX;
+using Misakai.Storage.Sbe.PerfTests.Bench.SBE.FIX;
 
-namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.SBE
+namespace Misakai.Storage.Sbe.PerfTests.Bench.SBE
 {
     public class BenchmarkState
     {

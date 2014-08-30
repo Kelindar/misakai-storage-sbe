@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Adaptive.SimpleBinaryEncoding.ir;
+using Misakai.Storage.Sbe.Ir;
 
-namespace Adaptive.SimpleBinaryEncoding.Otf
+namespace Misakai.Storage.Sbe.Otf
 {
     /// <summary>
     ///     On-the-fly decoder that dynamically decodes messages based on the IR for a schema.

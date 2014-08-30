@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using NUnit.Framework;
 
-namespace Adaptive.SimpleBinaryEncoding.Tests
+namespace Misakai.Storage.Sbe.Tests
 {
     [TestFixture]
     public unsafe class DirectBufferTests

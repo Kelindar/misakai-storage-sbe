@@ -6,7 +6,7 @@ using pb = global::Google.ProtocolBuffers;
 using pbc = global::Google.ProtocolBuffers.Collections;
 using pbd = global::Google.ProtocolBuffers.Descriptors;
 using scg = global::System.Collections.Generic;
-namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
+namespace Misakai.Storage.Sbe.PerfTests.Bench.Proto {
   
   [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
   public static partial class Samplefix {
@@ -17,13 +17,13 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     #endregion
     #region Static variables
     internal static pbd::MessageDescriptor internal__static_tutorial_Decimal64__Descriptor;
-    internal static pb::FieldAccess.FieldAccessorTable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.Builder> internal__static_tutorial_Decimal64__FieldAccessorTable;
+    internal static pb::FieldAccess.FieldAccessorTable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.Builder> internal__static_tutorial_Decimal64__FieldAccessorTable;
     internal static pbd::MessageDescriptor internal__static_tutorial_IntQty32__Descriptor;
-    internal static pb::FieldAccess.FieldAccessorTable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.Builder> internal__static_tutorial_IntQty32__FieldAccessorTable;
+    internal static pb::FieldAccess.FieldAccessorTable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.Builder> internal__static_tutorial_IntQty32__FieldAccessorTable;
     internal static pbd::MessageDescriptor internal__static_tutorial_MdIncGrp__Descriptor;
-    internal static pb::FieldAccess.FieldAccessorTable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Builder> internal__static_tutorial_MdIncGrp__FieldAccessorTable;
+    internal static pb::FieldAccess.FieldAccessorTable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Builder> internal__static_tutorial_MdIncGrp__FieldAccessorTable;
     internal static pbd::MessageDescriptor internal__static_tutorial_MarketDataIncrementalRefreshTrades__Descriptor;
-    internal static pb::FieldAccess.FieldAccessorTable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Builder> internal__static_tutorial_MarketDataIncrementalRefreshTrades__FieldAccessorTable;
+    internal static pb::FieldAccess.FieldAccessorTable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Builder> internal__static_tutorial_MarketDataIncrementalRefreshTrades__FieldAccessorTable;
     #endregion
     #region Descriptor
     public static pbd::FileDescriptor Descriptor {
@@ -63,19 +63,19 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
         descriptor = root;
         internal__static_tutorial_Decimal64__Descriptor = Descriptor.MessageTypes[0];
         internal__static_tutorial_Decimal64__FieldAccessorTable = 
-            new pb::FieldAccess.FieldAccessorTable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.Builder>(internal__static_tutorial_Decimal64__Descriptor,
+            new pb::FieldAccess.FieldAccessorTable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.Builder>(internal__static_tutorial_Decimal64__Descriptor,
                 new string[] { "Mantissa", "Exponent", });
         internal__static_tutorial_IntQty32__Descriptor = Descriptor.MessageTypes[1];
         internal__static_tutorial_IntQty32__FieldAccessorTable = 
-            new pb::FieldAccess.FieldAccessorTable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.Builder>(internal__static_tutorial_IntQty32__Descriptor,
+            new pb::FieldAccess.FieldAccessorTable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.Builder>(internal__static_tutorial_IntQty32__Descriptor,
                 new string[] { "Mantissa", "Exponent", });
         internal__static_tutorial_MdIncGrp__Descriptor = Descriptor.MessageTypes[2];
         internal__static_tutorial_MdIncGrp__FieldAccessorTable = 
-            new pb::FieldAccess.FieldAccessorTable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Builder>(internal__static_tutorial_MdIncGrp__Descriptor,
+            new pb::FieldAccess.FieldAccessorTable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Builder>(internal__static_tutorial_MdIncGrp__Descriptor,
                 new string[] { "TradeId", "SecurityId", "MdEntryPx", "MdEntrySize", "NumberOfOrders", "MdUpdateAction", "RepSeq", "AggressorSide", "MdEntryType", });
         internal__static_tutorial_MarketDataIncrementalRefreshTrades__Descriptor = Descriptor.MessageTypes[3];
         internal__static_tutorial_MarketDataIncrementalRefreshTrades__FieldAccessorTable = 
-            new pb::FieldAccess.FieldAccessorTable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Builder>(internal__static_tutorial_MarketDataIncrementalRefreshTrades__Descriptor,
+            new pb::FieldAccess.FieldAccessorTable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Builder>(internal__static_tutorial_MarketDataIncrementalRefreshTrades__Descriptor,
                 new string[] { "TransactTime", "EventTimeDelta", "MatchEventIndicator", "MdIncGroup", });
         pb::ExtensionRegistry registry = pb::ExtensionRegistry.CreateInstance();
         RegisterAllExtensions(registry);
@@ -110,11 +110,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     }
     
     public static pbd::MessageDescriptor Descriptor {
-      get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_Decimal64__Descriptor; }
+      get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_Decimal64__Descriptor; }
     }
     
     protected override pb::FieldAccess.FieldAccessorTable<Decimal64, Decimal64.Builder> InternalFieldAccessors {
-      get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_Decimal64__FieldAccessorTable; }
+      get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_Decimal64__FieldAccessorTable; }
     }
     
     public const int MantissaFieldNumber = 1;
@@ -267,11 +267,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
       
       public override pbd::MessageDescriptor DescriptorForType {
-        get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.Descriptor; }
+        get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.Descriptor; }
       }
       
       public override Decimal64 DefaultInstanceForType {
-        get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.DefaultInstance; }
+        get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.DefaultInstance; }
       }
       
       public override Decimal64 BuildPartial() {
@@ -292,7 +292,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
       
       public override Builder MergeFrom(Decimal64 other) {
-        if (other == global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.DefaultInstance) return this;
+        if (other == global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.DefaultInstance) return this;
         PrepareBuilder();
         if (other.HasMantissa) {
           Mantissa = other.Mantissa;
@@ -404,7 +404,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
     }
     static Decimal64() {
-      object.ReferenceEquals(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.Descriptor, null);
+      object.ReferenceEquals(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.Descriptor, null);
     }
   }
   
@@ -427,11 +427,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     }
     
     public static pbd::MessageDescriptor Descriptor {
-      get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_IntQty32__Descriptor; }
+      get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_IntQty32__Descriptor; }
     }
     
     protected override pb::FieldAccess.FieldAccessorTable<IntQty32, IntQty32.Builder> InternalFieldAccessors {
-      get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_IntQty32__FieldAccessorTable; }
+      get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_IntQty32__FieldAccessorTable; }
     }
     
     public const int MantissaFieldNumber = 1;
@@ -584,11 +584,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
       
       public override pbd::MessageDescriptor DescriptorForType {
-        get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.Descriptor; }
+        get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.Descriptor; }
       }
       
       public override IntQty32 DefaultInstanceForType {
-        get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.DefaultInstance; }
+        get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.DefaultInstance; }
       }
       
       public override IntQty32 BuildPartial() {
@@ -609,7 +609,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
       
       public override Builder MergeFrom(IntQty32 other) {
-        if (other == global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.DefaultInstance) return this;
+        if (other == global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.DefaultInstance) return this;
         PrepareBuilder();
         if (other.HasMantissa) {
           Mantissa = other.Mantissa;
@@ -721,7 +721,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
     }
     static IntQty32() {
-      object.ReferenceEquals(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.Descriptor, null);
+      object.ReferenceEquals(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.Descriptor, null);
     }
   }
   
@@ -744,11 +744,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     }
     
     public static pbd::MessageDescriptor Descriptor {
-      get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_MdIncGrp__Descriptor; }
+      get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_MdIncGrp__Descriptor; }
     }
     
     protected override pb::FieldAccess.FieldAccessorTable<MdIncGrp, MdIncGrp.Builder> InternalFieldAccessors {
-      get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_MdIncGrp__FieldAccessorTable; }
+      get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_MdIncGrp__FieldAccessorTable; }
     }
     
     #region Nested types
@@ -803,22 +803,22 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     
     public const int MdEntryPxFieldNumber = 3;
     private bool hasMdEntryPx;
-    private global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64 mdEntryPx_;
+    private global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64 mdEntryPx_;
     public bool HasMdEntryPx {
       get { return hasMdEntryPx; }
     }
-    public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64 MdEntryPx {
-      get { return mdEntryPx_ ?? global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.DefaultInstance; }
+    public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64 MdEntryPx {
+      get { return mdEntryPx_ ?? global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.DefaultInstance; }
     }
     
     public const int MdEntrySizeFieldNumber = 4;
     private bool hasMdEntrySize;
-    private global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32 mdEntrySize_;
+    private global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32 mdEntrySize_;
     public bool HasMdEntrySize {
       get { return hasMdEntrySize; }
     }
-    public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32 MdEntrySize {
-      get { return mdEntrySize_ ?? global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.DefaultInstance; }
+    public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32 MdEntrySize {
+      get { return mdEntrySize_ ?? global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.DefaultInstance; }
     }
     
     public const int NumberOfOrdersFieldNumber = 5;
@@ -834,11 +834,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     
     public const int MdUpdateActionFieldNumber = 6;
     private bool hasMdUpdateAction;
-    private global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction mdUpdateAction_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction.NEW;
+    private global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction mdUpdateAction_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction.NEW;
     public bool HasMdUpdateAction {
       get { return hasMdUpdateAction; }
     }
-    public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction MdUpdateAction {
+    public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction MdUpdateAction {
       get { return mdUpdateAction_; }
     }
     
@@ -855,21 +855,21 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     
     public const int AggressorSideFieldNumber = 8;
     private bool hasAggressorSide;
-    private global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.Side aggressorSide_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.Side.BUY;
+    private global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.Side aggressorSide_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.Side.BUY;
     public bool HasAggressorSide {
       get { return hasAggressorSide; }
     }
-    public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.Side AggressorSide {
+    public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.Side AggressorSide {
       get { return aggressorSide_; }
     }
     
     public const int MdEntryTypeFieldNumber = 9;
     private bool hasMdEntryType;
-    private global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType mdEntryType_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType.TRADE;
+    private global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType mdEntryType_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType.TRADE;
     public bool HasMdEntryType {
       get { return hasMdEntryType; }
     }
-    public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType MdEntryType {
+    public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType MdEntryType {
       get { return mdEntryType_; }
     }
     
@@ -1053,11 +1053,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
       
       public override pbd::MessageDescriptor DescriptorForType {
-        get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Descriptor; }
+        get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Descriptor; }
       }
       
       public override MdIncGrp DefaultInstanceForType {
-        get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.DefaultInstance; }
+        get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.DefaultInstance; }
       }
       
       public override MdIncGrp BuildPartial() {
@@ -1078,7 +1078,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
       
       public override Builder MergeFrom(MdIncGrp other) {
-        if (other == global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.DefaultInstance) return this;
+        if (other == global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.DefaultInstance) return this;
         PrepareBuilder();
         if (other.HasTradeId) {
           TradeId = other.TradeId;
@@ -1159,7 +1159,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
               break;
             }
             case 26: {
-              global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.Builder subBuilder = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.CreateBuilder();
+              global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.Builder subBuilder = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.CreateBuilder();
               if (result.hasMdEntryPx) {
                 subBuilder.MergeFrom(MdEntryPx);
               }
@@ -1168,7 +1168,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
               break;
             }
             case 34: {
-              global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.Builder subBuilder = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.CreateBuilder();
+              global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.Builder subBuilder = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.CreateBuilder();
               if (result.hasMdEntrySize) {
                 subBuilder.MergeFrom(MdEntrySize);
               }
@@ -1277,30 +1277,30 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public bool HasMdEntryPx {
        get { return result.hasMdEntryPx; }
       }
-      public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64 MdEntryPx {
+      public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64 MdEntryPx {
         get { return result.MdEntryPx; }
         set { SetMdEntryPx(value); }
       }
-      public Builder SetMdEntryPx(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64 value) {
+      public Builder SetMdEntryPx(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64 value) {
         pb::ThrowHelper.ThrowIfNull(value, "value");
         PrepareBuilder();
         result.hasMdEntryPx = true;
         result.mdEntryPx_ = value;
         return this;
       }
-      public Builder SetMdEntryPx(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.Builder builderForValue) {
+      public Builder SetMdEntryPx(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.Builder builderForValue) {
         pb::ThrowHelper.ThrowIfNull(builderForValue, "builderForValue");
         PrepareBuilder();
         result.hasMdEntryPx = true;
         result.mdEntryPx_ = builderForValue.Build();
         return this;
       }
-      public Builder MergeMdEntryPx(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64 value) {
+      public Builder MergeMdEntryPx(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64 value) {
         pb::ThrowHelper.ThrowIfNull(value, "value");
         PrepareBuilder();
         if (result.hasMdEntryPx &&
-            result.mdEntryPx_ != global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.DefaultInstance) {
-            result.mdEntryPx_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Decimal64.CreateBuilder(result.mdEntryPx_).MergeFrom(value).BuildPartial();
+            result.mdEntryPx_ != global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.DefaultInstance) {
+            result.mdEntryPx_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Decimal64.CreateBuilder(result.mdEntryPx_).MergeFrom(value).BuildPartial();
         } else {
           result.mdEntryPx_ = value;
         }
@@ -1317,30 +1317,30 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public bool HasMdEntrySize {
        get { return result.hasMdEntrySize; }
       }
-      public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32 MdEntrySize {
+      public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32 MdEntrySize {
         get { return result.MdEntrySize; }
         set { SetMdEntrySize(value); }
       }
-      public Builder SetMdEntrySize(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32 value) {
+      public Builder SetMdEntrySize(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32 value) {
         pb::ThrowHelper.ThrowIfNull(value, "value");
         PrepareBuilder();
         result.hasMdEntrySize = true;
         result.mdEntrySize_ = value;
         return this;
       }
-      public Builder SetMdEntrySize(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.Builder builderForValue) {
+      public Builder SetMdEntrySize(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.Builder builderForValue) {
         pb::ThrowHelper.ThrowIfNull(builderForValue, "builderForValue");
         PrepareBuilder();
         result.hasMdEntrySize = true;
         result.mdEntrySize_ = builderForValue.Build();
         return this;
       }
-      public Builder MergeMdEntrySize(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32 value) {
+      public Builder MergeMdEntrySize(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32 value) {
         pb::ThrowHelper.ThrowIfNull(value, "value");
         PrepareBuilder();
         if (result.hasMdEntrySize &&
-            result.mdEntrySize_ != global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.DefaultInstance) {
-            result.mdEntrySize_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.IntQty32.CreateBuilder(result.mdEntrySize_).MergeFrom(value).BuildPartial();
+            result.mdEntrySize_ != global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.DefaultInstance) {
+            result.mdEntrySize_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.IntQty32.CreateBuilder(result.mdEntrySize_).MergeFrom(value).BuildPartial();
         } else {
           result.mdEntrySize_ = value;
         }
@@ -1379,11 +1379,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public bool HasMdUpdateAction {
        get { return result.hasMdUpdateAction; }
       }
-      public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction MdUpdateAction {
+      public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction MdUpdateAction {
         get { return result.MdUpdateAction; }
         set { SetMdUpdateAction(value); }
       }
-      public Builder SetMdUpdateAction(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction value) {
+      public Builder SetMdUpdateAction(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction value) {
         PrepareBuilder();
         result.hasMdUpdateAction = true;
         result.mdUpdateAction_ = value;
@@ -1392,7 +1392,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public Builder ClearMdUpdateAction() {
         PrepareBuilder();
         result.hasMdUpdateAction = false;
-        result.mdUpdateAction_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction.NEW;
+        result.mdUpdateAction_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdUpdateAction.NEW;
         return this;
       }
       
@@ -1421,11 +1421,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public bool HasAggressorSide {
        get { return result.hasAggressorSide; }
       }
-      public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.Side AggressorSide {
+      public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.Side AggressorSide {
         get { return result.AggressorSide; }
         set { SetAggressorSide(value); }
       }
-      public Builder SetAggressorSide(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.Side value) {
+      public Builder SetAggressorSide(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.Side value) {
         PrepareBuilder();
         result.hasAggressorSide = true;
         result.aggressorSide_ = value;
@@ -1434,18 +1434,18 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public Builder ClearAggressorSide() {
         PrepareBuilder();
         result.hasAggressorSide = false;
-        result.aggressorSide_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.Side.BUY;
+        result.aggressorSide_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.Side.BUY;
         return this;
       }
       
       public bool HasMdEntryType {
        get { return result.hasMdEntryType; }
       }
-      public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType MdEntryType {
+      public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType MdEntryType {
         get { return result.MdEntryType; }
         set { SetMdEntryType(value); }
       }
-      public Builder SetMdEntryType(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType value) {
+      public Builder SetMdEntryType(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType value) {
         PrepareBuilder();
         result.hasMdEntryType = true;
         result.mdEntryType_ = value;
@@ -1454,12 +1454,12 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public Builder ClearMdEntryType() {
         PrepareBuilder();
         result.hasMdEntryType = false;
-        result.mdEntryType_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType.TRADE;
+        result.mdEntryType_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Types.MdEntryType.TRADE;
         return this;
       }
     }
     static MdIncGrp() {
-      object.ReferenceEquals(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.Descriptor, null);
+      object.ReferenceEquals(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.Descriptor, null);
     }
   }
   
@@ -1482,11 +1482,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     }
     
     public static pbd::MessageDescriptor Descriptor {
-      get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_MarketDataIncrementalRefreshTrades__Descriptor; }
+      get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_MarketDataIncrementalRefreshTrades__Descriptor; }
     }
     
     protected override pb::FieldAccess.FieldAccessorTable<MarketDataIncrementalRefreshTrades, MarketDataIncrementalRefreshTrades.Builder> InternalFieldAccessors {
-      get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_MarketDataIncrementalRefreshTrades__FieldAccessorTable; }
+      get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.internal__static_tutorial_MarketDataIncrementalRefreshTrades__FieldAccessorTable; }
     }
     
     #region Nested types
@@ -1526,23 +1526,23 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
     
     public const int MatchEventIndicatorFieldNumber = 3;
     private bool hasMatchEventIndicator;
-    private global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator matchEventIndicator_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator.MID_EVENT;
+    private global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator matchEventIndicator_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator.MID_EVENT;
     public bool HasMatchEventIndicator {
       get { return hasMatchEventIndicator; }
     }
-    public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator MatchEventIndicator {
+    public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator MatchEventIndicator {
       get { return matchEventIndicator_; }
     }
     
     public const int MdIncGroupFieldNumber = 4;
-    private pbc::PopsicleList<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp> mdIncGroup_ = new pbc::PopsicleList<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp>();
-    public scg::IList<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp> MdIncGroupList {
+    private pbc::PopsicleList<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp> mdIncGroup_ = new pbc::PopsicleList<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp>();
+    public scg::IList<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp> MdIncGroupList {
       get { return mdIncGroup_; }
     }
     public int MdIncGroupCount {
       get { return mdIncGroup_.Count; }
     }
-    public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp GetMdIncGroup(int index) {
+    public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp GetMdIncGroup(int index) {
       return mdIncGroup_[index];
     }
     
@@ -1551,7 +1551,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
         if (!hasTransactTime) return false;
         if (!hasEventTimeDelta) return false;
         if (!hasMatchEventIndicator) return false;
-        foreach (global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp element in MdIncGroupList) {
+        foreach (global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp element in MdIncGroupList) {
           if (!element.IsInitialized) return false;
         }
         return true;
@@ -1592,7 +1592,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
         if (hasMatchEventIndicator) {
           size += pb::CodedOutputStream.ComputeEnumSize(3, (int) MatchEventIndicator);
         }
-        foreach (global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp element in MdIncGroupList) {
+        foreach (global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp element in MdIncGroupList) {
           size += pb::CodedOutputStream.ComputeMessageSize(4, element);
         }
         size += UnknownFields.SerializedSize;
@@ -1693,11 +1693,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
       
       public override pbd::MessageDescriptor DescriptorForType {
-        get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Descriptor; }
+        get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Descriptor; }
       }
       
       public override MarketDataIncrementalRefreshTrades DefaultInstanceForType {
-        get { return global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.DefaultInstance; }
+        get { return global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.DefaultInstance; }
       }
       
       public override MarketDataIncrementalRefreshTrades BuildPartial() {
@@ -1718,7 +1718,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
       
       public override Builder MergeFrom(MarketDataIncrementalRefreshTrades other) {
-        if (other == global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.DefaultInstance) return this;
+        if (other == global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.DefaultInstance) return this;
         PrepareBuilder();
         if (other.HasTransactTime) {
           TransactTime = other.TransactTime;
@@ -1796,7 +1796,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
               break;
             }
             case 34: {
-              input.ReadMessageArray(tag, field_name, result.mdIncGroup_, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.DefaultInstance, extensionRegistry);
+              input.ReadMessageArray(tag, field_name, result.mdIncGroup_, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.DefaultInstance, extensionRegistry);
               break;
             }
           }
@@ -1856,11 +1856,11 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public bool HasMatchEventIndicator {
        get { return result.hasMatchEventIndicator; }
       }
-      public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator MatchEventIndicator {
+      public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator MatchEventIndicator {
         get { return result.MatchEventIndicator; }
         set { SetMatchEventIndicator(value); }
       }
-      public Builder SetMatchEventIndicator(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator value) {
+      public Builder SetMatchEventIndicator(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator value) {
         PrepareBuilder();
         result.hasMatchEventIndicator = true;
         result.matchEventIndicator_ = value;
@@ -1869,44 +1869,44 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       public Builder ClearMatchEventIndicator() {
         PrepareBuilder();
         result.hasMatchEventIndicator = false;
-        result.matchEventIndicator_ = global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator.MID_EVENT;
+        result.matchEventIndicator_ = global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MarketDataIncrementalRefreshTrades.Types.MatchEventIndicator.MID_EVENT;
         return this;
       }
       
-      public pbc::IPopsicleList<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp> MdIncGroupList {
+      public pbc::IPopsicleList<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp> MdIncGroupList {
         get { return PrepareBuilder().mdIncGroup_; }
       }
       public int MdIncGroupCount {
         get { return result.MdIncGroupCount; }
       }
-      public global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp GetMdIncGroup(int index) {
+      public global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp GetMdIncGroup(int index) {
         return result.GetMdIncGroup(index);
       }
-      public Builder SetMdIncGroup(int index, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp value) {
+      public Builder SetMdIncGroup(int index, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp value) {
         pb::ThrowHelper.ThrowIfNull(value, "value");
         PrepareBuilder();
         result.mdIncGroup_[index] = value;
         return this;
       }
-      public Builder SetMdIncGroup(int index, global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Builder builderForValue) {
+      public Builder SetMdIncGroup(int index, global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Builder builderForValue) {
         pb::ThrowHelper.ThrowIfNull(builderForValue, "builderForValue");
         PrepareBuilder();
         result.mdIncGroup_[index] = builderForValue.Build();
         return this;
       }
-      public Builder AddMdIncGroup(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp value) {
+      public Builder AddMdIncGroup(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp value) {
         pb::ThrowHelper.ThrowIfNull(value, "value");
         PrepareBuilder();
         result.mdIncGroup_.Add(value);
         return this;
       }
-      public Builder AddMdIncGroup(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp.Builder builderForValue) {
+      public Builder AddMdIncGroup(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp.Builder builderForValue) {
         pb::ThrowHelper.ThrowIfNull(builderForValue, "builderForValue");
         PrepareBuilder();
         result.mdIncGroup_.Add(builderForValue.Build());
         return this;
       }
-      public Builder AddRangeMdIncGroup(scg::IEnumerable<global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.MdIncGrp> values) {
+      public Builder AddRangeMdIncGroup(scg::IEnumerable<global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.MdIncGrp> values) {
         PrepareBuilder();
         result.mdIncGroup_.Add(values);
         return this;
@@ -1918,7 +1918,7 @@ namespace Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto {
       }
     }
     static MarketDataIncrementalRefreshTrades() {
-      object.ReferenceEquals(global::Adaptive.SimpleBinaryEncoding.PerfTests.Bench.Proto.Samplefix.Descriptor, null);
+      object.ReferenceEquals(global::Misakai.Storage.Sbe.PerfTests.Bench.Proto.Samplefix.Descriptor, null);
     }
   }
   

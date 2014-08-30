@@ -1,8 +1,8 @@
 ﻿using System;
-using Adaptive.SimpleBinaryEncoding.Examples.generated_stub;
-using Adaptive.SimpleBinaryEncoding.Examples.Otf;
+using Misakai.Storage.Sbe.Examples.generated_stub;
+using Misakai.Storage.Sbe.Examples.Otf;
 
-namespace Adaptive.SimpleBinaryEncoding.Examples
+namespace Misakai.Storage.Sbe.Examples
 {
     class Program
     {
